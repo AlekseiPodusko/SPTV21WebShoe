@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>showLogin.jsp</welcome-file>
+    </welcome-file-list>
+    <jsp-config>
+        <jsp-property-group>
+            <display-name>Template1</display-name>
+            <url-pattern>/uploadFile.jsp</url-pattern>
+            <url-pattern>/showLogin.jsp</url-pattern>
+            <url-pattern>/showEditUser.jsp</url-pattern>
+            <url-pattern>/showRegistration.jsp</url-pattern>
+            <url-pattern>/WEB-INF/changeRole.jsp</url-pattern>
+            <url-pattern>/WEB-INF/listProducts.jsp</url-pattern>
+            <url-pattern>/WEB-INF/addProduct.jsp</url-pattern>
+            <url-pattern>/WEB-INF/showEditUser.jsp</url-pattern>
+            <url-pattern>/WEB-INF/addMoney.jsp</url-pattern>
+            <url-pattern>/WEB-INF/buyProduct.jsp</url-pattern>
+            <url-pattern>/WEB-INF/myPurchases.jsp</url-pattern>
+            <url-pattern>/WEB-INF/editProduct.jsp</url-pattern>
+            <url-pattern>/WEB-INF/statistic.jsp</url-pattern>
+            <url-pattern>/WEB-INF/usersList.jsp</url-pattern>
+            <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
+            <include-coda>/WEB-INF/jspf/footer.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>
